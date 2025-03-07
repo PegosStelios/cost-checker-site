@@ -18,25 +18,25 @@ export default function Hero() {
           <div className="mx-auto max-w-3xl text-center space-y-8">
             <div className="space-y-4">
               <h1 className="mt-56 text-7xl sm:text-8xl lg:text-9xl font-bold bg-gradient-to-r from-blue-300 to-blue-500 bg-clip-text text-transparent leading-tight">
-                <span>Bot</span>
-                <span className="font-light">-Sensei</span>
+                <span>Cost</span>
+                <span className="font-light">Checker</span>
               </h1>
               <p className="text-lg sm:text-xl max-w-2xl mx-auto font-light text-blue-200/90">
-                Build, deploy, and scale intelligent Telegram bots with our no-code platform powered by cutting-edge AI so that you can focus on what REALLY MATTERS!
+              Cost Checker is a small but powerful Google Script to automate your workflow in Google Sheets
               </p>
             </div>
             
-            <div className="flex justify-center">
+            {/* <div className="flex justify-center">
               <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                 <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#60A5FA_0%,#1D4ED8_50%,#60A5FA_100%)]" />
                 <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-10 py-4 text-lg font-bold text-white backdrop-blur-3xl">
                   Create Bot
                 </span>
               </button>
-            </div>
+            </div> */}
           </div>
 
-          <div className="flex flex-col overflow-hidden -mt-64">
+          {/* <div className="flex flex-col overflow-hidden -mt-64">
             <ContainerScroll
               titleComponent={null}
             >
@@ -49,7 +49,7 @@ export default function Hero() {
                 draggable={false}
               />
             </ContainerScroll>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -24,17 +24,17 @@ function RevealLayout({ children }: { children: React.ReactNode }) {
 export default function Home() {
   return (
     <div className="min-h-screen bg-black">
-      <Header />
+      {/* <Header /> */}
       <RevealLayout>
         <Hero />
-        <TrustedBy />
+        {/* <TrustedBy />
         <CatchyLine />
         <div className="w-1/2 mx-auto">
           <BentoDemo/>
         </div>
         <Features />
         <Testimonials />
-        <BentoGridThirdDemo/>
+        <BentoGridThirdDemo/> */}
         <Pricing />
         <FAQ />
         <Footer />

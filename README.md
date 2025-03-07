@@ -1,8 +1,8 @@
-# BOT-Sensei - Next.js SaaS Landing Page Template
+# Cost Checker - Next.js SaaS Landing Page Template
 
 ![alt text](image.png)
 
-**BOT-Sensei** is a modern **Next.js + Tailwind CSS SaaS landing page template** designed for AI/chatbot businesses, educational platforms, and SaaS products. Perfect for companies looking to showcase their AI-powered solutions with a professional and engaging online presence.
+**Cost Checker** is a modern **Next.js + Tailwind CSS SaaS landing page template** designed for AI/chatbot businesses, educational platforms, and SaaS products. Perfect for companies looking to showcase their AI-powered solutions with a professional and engaging online presence.
 
 ## ✨ Key Features
 
@@ -32,12 +32,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/bot-sensei.git
+git clone https://github.com/yourusername/Cost Checker.git
 ```
 
 2. Install dependencies:
 ```bash
-cd bot-sensei
+cd Cost Checker
 npm install
 # or
 yarn install
@@ -63,7 +63,7 @@ bun dev
 ## 📁 Project Structure
 
 ```
-bot-sensei/
+Cost Checker/
 ├── app/
 │   ├── components/
 │   ├── layout.tsx

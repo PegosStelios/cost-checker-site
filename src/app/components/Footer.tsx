@@ -22,7 +22,7 @@ export default function Footer() {
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Newsletter Section */}
-        <div className="mb-16 text-center">
+        {/* <div className="mb-16 text-center">
           <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 mb-4">
             Stay Updated
           </h3>
@@ -46,16 +46,16 @@ export default function Footer() {
               <span>Subscribe</span>
             </button>
           </form>
-        </div>
+        </div> */}
 
         <div className="grid md:grid-cols-4 gap-12">
           {/* Company Info */}
           <div>
             <h3 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 mb-4">
-              Bot-Sensei
+              Cost Checker
             </h3>
             <p className="text-blue-200/80 mb-6">
-              Build, deploy, and scale intelligent Telegram bots powered by cutting-edge AI technology. No coding required.
+            Cost Checker is a small but powerful Google Script to automate your workflow in Google Sheets
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Youtube].map((Icon, index) => (
@@ -75,15 +75,38 @@ export default function Footer() {
             <h4 className="font-semibold mb-4 text-lg bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">
               Quick Links
             </h4>
-            <ul className="space-y-2">
-              {['Features', 'Pricing', 'FAQ', 'Support', 'Contact'].map((item) => (
-                <li key={item}>
-                  <a href="#" className="text-blue-200/80 hover:text-white transition-colors duration-300">
-                    {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
+            <div className="space-y-4">
+              <a 
+                href="https://pegos.net/tos" 
+                className="flex items-center gap-3 text-blue-200/80 hover:text-white group transition-colors duration-300"
+              >
+                Terms of Service
+              </a>
+            </div>
+            <div className="space-y-4">
+              <a 
+                href="https://pegos.net/privacy" 
+                className="flex items-center gap-3 text-blue-200/80 hover:text-white group transition-colors duration-300"
+              >
+                Privacy Police
+              </a>
+            </div>
+            <div className="space-y-4">
+              <a 
+                href="https://pegos.net/post-install" 
+                className="flex items-center gap-3 text-blue-200/80 hover:text-white group transition-colors duration-300"
+              >
+                Post Install
+              </a>
+            </div>
+            <div className="space-y-4">
+              <a 
+                href="https://pegos.net/opt-out" 
+                className="flex items-center gap-3 text-blue-200/80 hover:text-white group transition-colors duration-300"
+              >
+                Opt Out Policy
+              </a>
+            </div>
           </div>
 
           {/* Features */}
@@ -92,7 +115,7 @@ export default function Footer() {
               Features
             </h4>
             <ul className="space-y-2">
-              {['Automated Responses', 'Smart Commands', 'User Analytics', 'Multi-language Support', 'Custom Integration'].map((item) => (
+              {['Quick Calculations', 'Precision', 'Confidentiality', 'Zero Log Policy'].map((item) => (
                 <li key={item}>
                   <a href="#" className="text-blue-200/80 hover:text-white transition-colors duration-300">
                     {item}
@@ -109,15 +132,15 @@ export default function Footer() {
             </h4>
             <div className="space-y-4">
               <a 
-                href="mailto:support@bot-sensei.com" 
+                href="mailto:stelios@pegos.net" 
                 className="flex items-center gap-3 text-blue-200/80 hover:text-white group transition-colors duration-300"
               >
                 <div className="p-2 rounded-md bg-blue-500/10 group-hover:bg-blue-500/20 transition-colors duration-300">
                   <Mail className="w-4 h-4" />
                 </div>
-                support@bot-sensei.com
+                stelios@pegos.net
               </a>
-              <a 
+              {/* <a 
                 href="tel:+919876543210" 
                 className="flex items-center gap-3 text-blue-200/80 hover:text-white group transition-colors duration-300"
               >
@@ -125,7 +148,7 @@ export default function Footer() {
                   <Phone className="w-4 h-4" />
                 </div>
                 +91 98765 43210
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -134,7 +157,7 @@ export default function Footer() {
         <div className="relative mt-16 pt-8">
           <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-blue-500/20 to-transparent" />
           <p className="text-center text-blue-200/60">
-            &copy; {new Date().getFullYear()} Bot-Sensei. All rights reserved.
+            &copy; {new Date().getFullYear()} Cost Checker. All rights reserved.
           </p>
         </div>
       </div>

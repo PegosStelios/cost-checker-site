@@ -3,7 +3,7 @@ import { TextGenerateEffect } from "@/app/components/ui/text-generate-effect"
 
 const words1 = "Unleash the power of"
 const words2 = "AI Bots"
-const words3 = "in your Telegram chats with BOT-Sensei"
+const words3 = "in your Telegram chats with Cost Checker"
 const words4 = "No code, Only Innovation"
 
 

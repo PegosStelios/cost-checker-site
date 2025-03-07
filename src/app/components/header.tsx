@@ -56,18 +56,18 @@ const Header = () => {
           >
             Features
           </Link>
-          <Link
+          {/* <Link
             href="/about"
             className="text-base text-gray-300 hover:text-white transition-colors"
           >
             About
-          </Link>
-          <Link
-            href="/contact"
+          </Link> */}
+          {/* <Link
+            href="#footer"
             className="text-base text-gray-300 hover:text-white transition-colors"
           >
             Contact
-          </Link>
+          </Link> */}
           <Link
             href="/get-started"
             className="px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-blue-700 text-white text-base font-medium hover:opacity-90 transition-opacity shadow-[0_30px_80px_-15px_rgba(59,130,246,0.85)] hover:shadow-[0_40px_90px_-10px_rgba(59,130,246,1)]"

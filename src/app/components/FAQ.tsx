@@ -4,24 +4,24 @@ import { motion } from 'framer-motion';
 
 const faqs = [
   {
-    question: "What is Bot-Sensei?",
-    answer: "Bot-Sensei is a no-code platform that enables you to build, deploy, and scale intelligent Telegram bots powered by cutting-edge AI technology."
+    question: "What is Cost Checker?",
+    answer: "Cost Checker is a simple to use Google Workspace Addon that will cross check Cost of Goods and your invoice for discrepencies."
   },
   {
     question: "How do I get started?",
-    answer: "Simply sign up for an account, choose a plan that suits your needs, and use our intuitive interface to start building your bot. No coding experience required!"
+    answer: "Simply contact me stelios@pegos.net and you will have your app withing the day."
   },
   {
     question: "What features are included?",
-    answer: "Our platform includes AI-powered responses, custom commands, media handling, analytics, and seamless Telegram integration. Features vary by plan."
+    answer: "All of them!"
   },
   {
     question: "Do you offer customer support?",
-    answer: "Yes! We provide comprehensive customer support through email, chat, and documentation. Premium plans include priority support."
+    answer: "Yes! I provide comprehensive customer support through email. Our premium plans include priority support."
   },
   {
     question: "Can I upgrade or downgrade my plan?",
-    answer: "Yes, you can change your plan at any time. Changes will be reflected in your next billing cycle."
+    answer: "Yes, you can change your plan at any time."
   }
 ];
 
@@ -57,7 +57,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="mt-4 text-lg text-blue-200/80">
-            Everything you need to know about Bot-Sensei
+            Everything you need to know about Cost Checker
           </p>
         </div>
 

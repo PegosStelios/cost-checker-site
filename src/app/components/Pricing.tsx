@@ -3,40 +3,37 @@ import React, { useMemo } from 'react';
 import { CardSpotlight } from './ui/card-spotlight';
 
 const plans = [
-  {
-    name: 'Basic',
-    price: '$19',
-    features: [
-      '3 Active Bots',
-      '5,000 Monthly Messages', 
-      'Basic Bot Templates',
-      'Standard Support',
-      'Basic Analytics'
-    ]
-  },
+  // {
+  //   name: 'Basic',
+  //   price: '$19',
+  //   features: [
+  //     '3 Active Bots',
+  //     '5,000 Monthly Messages', 
+  //     'Basic Bot Templates',
+  //     'Standard Support',
+  //     'Basic Analytics'
+  //   ]
+  // },
   {
     name: 'Professional',
-    price: '$49',
+    price: '$250',
     popular: true,
     features: [
-      'Unlimited Active Bots',
-      '50,000 Monthly Messages',
-      'Advanced Templates', 
-      'Priority Support',
-      'Advanced Analytics',
-      'AI-Powered Features'
+      'Active Development',
+      'Updates',
+      '3 Pieces Check',
+      'Zero Log Policy, no spying on your sensitive data'
     ]
   },
   {
     name: 'Enterprise',
     price: 'Custom',
     features: [
-      'Custom Bot Solutions',
-      'Unlimited Messages',
-      'Dedicated Account Manager',
-      'SLA Guarantee',
-      'Custom Integrations',
-      'Custom AI Training'
+      'Active Development',
+      'Updates',
+      'Customizable to your needs',
+      'Unlimited Pieces',
+      'Zero Log Policy, no spying on your sensitive data'
     ]
   }
 ];
@@ -69,11 +66,11 @@ export default function Pricing() {
             Simple, Transparent Pricing
           </h2>
           <p className="text-lg md:text-xl text-blue-200/80 max-w-2xl mx-auto">
-            Choose the perfect plan for your bot-building needs
+            Choose the perfect plan.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 lg:gap-8 items-stretch max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-8 items-stretch max-w-5xl mx-auto">
           {plans.map((plan, index) => (
             <CardSpotlight 
               key={index}
@@ -98,7 +95,7 @@ export default function Pricing() {
                 </h3>
                 <div className="mb-8 flex items-baseline">
                   <span className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-600">{plan.price}</span>
-                  {plan.price !== 'Custom' && <span className="text-blue-200/60 ml-2">/month</span>}
+                  {plan.price !== 'Custom' && <span className="text-blue-200/60 ml-2">/ for lifetime access</span>}
                 </div>
                 <ul className="space-y-4 mb-8">
                   {plan.features.map((feature, i) => (
