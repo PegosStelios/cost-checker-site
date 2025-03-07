@@ -124,3 +124,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ---
 
 Made with ❤️ by [Harshil](https://github.com/harshiltomar) and [Wasim](https://github.com/wmemon)
+.
